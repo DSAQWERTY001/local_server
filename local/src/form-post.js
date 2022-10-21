@@ -19,7 +19,7 @@ export default function FormPost() {
         margin:'5px 0',
     }
     return(
-        <div style = {{margin:'30px'}}>
+        <div style = {{margin:'30px',textAlign:'center'}}>
             <form ref = {form} onSubmit={onSubmitForm}>
                 <div>ติดต่อเรา</div>
                 <input type="text"name="name"size="43"placeholder="ชื่อ"style={inputStyle} /><br/>

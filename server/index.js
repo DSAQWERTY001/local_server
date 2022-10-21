@@ -41,10 +41,10 @@ app.get('/api/form-get', (request, response) => {
     }
     response.json(r)
 })
-app.post('/api/form-post', (  request, response)  => {
-    let name= request.body.name|| ''
-    let email= request.body.email|| ''
-    let msg= request.body.message|| ''
+app.post('/api/form-post', (request, response)  => {
+    let name = request.body.name|| ''
+    let email = request.body.email|| ''
+    let msg = request.body.message|| ''
     let text= `
         <table border="1">
             <caption>ข้อมูลที่สองขึ้นไป</caption>
